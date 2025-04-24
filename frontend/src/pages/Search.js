@@ -31,7 +31,7 @@ const Search = () => {
             <Link to={`/product/${r._id}`}>
               <span>{r.itemName}</span>
               <img
-                src={`http://localhost:5000/uploads/${r.imageName}`}
+                src={`https://ecomm-6m2i.onrender.com/uploads/${r.imageName}`}
                 alt={r.itemName}
                 className="result-image"
               />
