@@ -25,7 +25,7 @@ export default function Register() {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/users/register", form);
+      await axios.post(`${process.env.REACT_APP_API_BASE_URL}/users/register`, form);
       setMsg("Registration successful! Please login.");
     } catch (err) {
       setMsg(err.response?.data?.message || "Registration failed");
