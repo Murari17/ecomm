@@ -27,7 +27,7 @@ const ProductDetails = () => {
       <p><strong>Price:</strong> ₹{listing.price}</p>
       <p><strong>Status:</strong> {listing.status}</p>
       <p><strong>Owner:</strong> {listing.ownerId?.name} ({listing.ownerId?.email})</p>
-      <img src={`http://localhost:5000/uploads/${listing.imageName}`} alt={listing.itemName} width="200" />
+      <img src={`https://ecomm-6m2i.onrender.com/uploads/${listing.imageName}`} alt={listing.itemName} width="200" />
 
       {user && (
         <div style={{ marginTop: "1rem" }}>
