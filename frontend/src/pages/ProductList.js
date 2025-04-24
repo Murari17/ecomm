@@ -22,7 +22,7 @@ const ProductList = () => {
           <div className="card" key={listing._id}>
             <Link to={`/product/${listing._id}`}>
               <img
-                src={`http://localhost:5000/uploads/${listing.imageName}`}
+                src={`https://ecomm-6m2i.onrender.com/uploads/${listing.imageName}`}
                 alt={listing.itemName}
               />
               <h3>{listing.itemName}</h3>
