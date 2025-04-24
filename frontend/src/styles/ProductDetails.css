@@ -1,0 +1,61 @@
+.product-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.product-details h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-details p {
+  font-size: 1em;
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.product-details img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-details a,
+.product-details button {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.product-details .delete-btn {
+  background: black;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 1rem;
+  cursor: pointer;
+}
